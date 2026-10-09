@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.kinal.reclutamiento.recursos.humanos.controlador.AspiranteController">
+   <children>
+      <TextField fx:id="txtCorreo" layoutX="162.0" layoutY="164.0" prefHeight="36.0" prefWidth="189.0" promptText="Correo Electronico" />
+      <PasswordField fx:id="txtContrasena" layoutX="162.0" layoutY="233.0" prefHeight="36.0" prefWidth="202.0" promptText="contraseña" />
+      <Button layoutX="228.0" layoutY="313.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="27.0" prefWidth="109.0" text="Iniciar Sesion" />
+      <Label layoutX="163.0" layoutY="135.0" text="Ingresar correo electronico" />
+      <Label layoutX="163.0" layoutY="208.0" text="Ingresar contraseña" />
+   </children>
+</Pane>
